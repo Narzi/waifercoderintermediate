@@ -1,9 +1,9 @@
+import java.util.LinkedHashSet;
 import java.util.Spliterator;
-import java.util.TreeSet;
 
-public class TreeSetTest {
+public class LinkedHashTest {
     public static void main(String[] args) {
-        TreeSet<String> names = new TreeSet<>();
+        LinkedHashSet<String> names = new LinkedHashSet<>();
         names.add("Mg Mg ");
         names.add(" Aung Aung ");
         names.add(" Tun Tun");
@@ -11,9 +11,11 @@ public class TreeSetTest {
         names.add("Mya Mya ");
         names.add("Aye AYe");
 
+        System.out.println(names.size());
 
         Spliterator spliterator = names.spliterator();
-        spliterator.forEachRemaining((n)-> System.out.println(n));
-
+        for(String name:names){
+            System.out.println(name);
+        }
     }
 }
