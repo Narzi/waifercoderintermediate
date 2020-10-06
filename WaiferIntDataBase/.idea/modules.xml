@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WaiferIntSecondLearn.iml" filepath="$PROJECT_DIR$/WaiferIntSecondLearn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WaiferIntDataBase.iml" filepath="$PROJECT_DIR$/WaiferIntDataBase.iml" />
     </modules>
   </component>
 </project>
